@@ -6,7 +6,47 @@
     border: 0;
 }
 body {
-    font-family: "merriweather", serif;
+    font-family: "merriweather", sans-serif;
     font-weight: 300;
     color: red;
+}
+
+/* Heading and logo*/
+
+h1, h2 {
+    font-family: "PT serif", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 270%;
+    color: darkslategrey;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover {
+    border-bottom: 2px solid darkslategray
+}
+
+.active {
+    border-bottom: 1px solid darkslategray;
 }
